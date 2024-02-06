@@ -54,34 +54,6 @@ nav ul li {
     cursor: pointer;
 }
 
-.recommendations {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
-}
-
-.recommendation-item {
-    text-align: center;
-}
-
-.recommendation-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
-}
-
-.recommendation-item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}
-
-.recommendation-item p {
-    font-size: 1rem;
-    color: #888;
-}
-
 footer {
     background: #111;
     color: #ccc;
